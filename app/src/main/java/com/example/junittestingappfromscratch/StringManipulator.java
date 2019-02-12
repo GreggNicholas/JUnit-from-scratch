@@ -39,6 +39,12 @@ public class StringManipulator {
         return zipper.toString();
     }
 
+//    public String wordSort(String[] words) {
+//
+//
+//
+//    }
+
 
 //    public String deconstructedWord(String word) {
 //        StringBuilder deconstruct = new StringBuilder();
@@ -61,16 +67,15 @@ public class StringManipulator {
 
     public String longestWord(String[] words){
         String length ="";
-        String longest;
+        String longest = "";
 
         for (int i = 0; i < words.length; i++) {
-            if(words.length > longest.length()){
+            if(words[i].length() > longest.length()){
                 longest = words[i];
-                length = String.valueOf(words[i].length());
 
-            }
+            }}
             return longest;
         }
-    }
+
 
 }
